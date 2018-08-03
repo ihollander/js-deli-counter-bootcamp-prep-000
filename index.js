@@ -10,6 +10,6 @@ function nowServing(katzDeliLine) {
   } else {
     var currentCustomer = katzDeliLine[0]
     katzDeliLine.shift()
-    
+    return currentCustomer()
   }
 }

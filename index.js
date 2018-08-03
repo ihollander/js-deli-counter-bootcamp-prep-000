@@ -20,6 +20,7 @@ function currentLine(line) {
   } else {
     var lineText = "The line is currently: "
     for (let i = 0; i < line.length; i ++) {
+      var hasComma = 
       lineText += `${i + 1}. ${line[i]}`
       if (i !== line.length - 1) {
         lineText += ', '

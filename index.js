@@ -3,3 +3,4 @@ function takeANumber(line, newPerson) {
   return `Welcome, ${newPerson}. You are number ${position} in line.`
 }
 
+function nowServing()
